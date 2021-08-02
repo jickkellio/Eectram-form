@@ -1,0 +1,99 @@
+*{
+  margin: 0;
+  padding:0px;
+  box-sizing: border-box;
+ 
+}
+body{
+  height: 319vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(#39b54a, #314ba2);
+
+
+}
+.container{
+  max-width: 750px;
+  width: 100%;
+  background-color: #fff;
+  padding: 55px 30px;
+  border-radius: 5px;
+    padding-top:100; 
+ }
+.container .logo{
+  padding-top:0px;
+  position:relative;
+}
+.container .title{
+  font-size: 25px;
+  position: relative;
+}
+.content form .user-details{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 5px 0 1px 0;
+}
+form .user-details .input-box{
+  margin-bottom: 1px;
+  width: calc(100% / 2 - 20px);
+}
+form .input-box span.details{
+  display: block;
+  font-weight: 200px;
+  margin-bottom: 5px;
+}
+.user-details .input-box input{
+  height: 45px;
+  width: 100%;
+  outline: none;
+  font-size: 16px;
+  border-radius: 5px;
+  padding-left: 15px;
+  border: 1px solid #ccc;
+  border-bottom-width: 2px;
+}
+form .button{
+   height: 45px;
+   margin: 35px 0;
+   text-align:center;
+ }
+ form .button input{
+   height: 100%;
+   width: 20%;
+   border-radius: 5px;
+   border: none;
+   color: #fff;
+   font-size: 18px;
+   font-weight: 500;
+   letter-spacing: 1px;
+   cursor: pointer;
+   background-color:#39b54a;
+}
+input[type=text],textarea{
+	width:100%;
+	padding:12px;
+	border-radius:5px;
+	margin-top:1px;
+	margin-bottom:5px;
+	resize:vertical;
+}
+.email{
+	margin-top:20px;
+}
+input[type=radio]{
+	margin-bottom:10px;
+	width:50px;
+}
+input[type=checkbox]{
+	margin-bottom:1px;
+	width:50px;
+}
+select{
+	margin:10px;
+}
+.logo{
+    height:75px;
+    width:300px;
+}
